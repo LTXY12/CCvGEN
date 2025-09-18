@@ -1,0 +1,38 @@
+# Tauri packaging ignore file
+# 참고사항
+참고사항/
+참고사항/*
+
+# 세이브 데이터
+*.sav
+*.save
+*.json.bak
+save_data/
+saves/
+
+# 개발 파일들
+node_modules/
+.git/
+.vscode/
+.idea/
+
+# 임시 파일들
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 로그 파일들
+*.log
+logs/
+
+# 캐시 파일들
+.cache/
+dist/
+build/
+
+# 환경 설정 파일들
+.env
+.env.local
+.env.development
+.env.production
